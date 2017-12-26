@@ -1,0 +1,35 @@
+    <html>
+        <head>
+            <script type="text/javascript" src="js/Calculator.js"></script>
+            <link rel="stylesheet" href="css/style.css" />
+        </head>
+        <body>
+        <form class="calcForm" name="calculator">
+            <input type="text" class="calcDisplay" id="display" />
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="7" onclick="input('7')" />
+                <input type="button" class="calcButton" value="8" onclick="input('8')" />
+                <input type="button" class="calcButton" value="9" onclick="input('9')" />
+                <input type="button" class="calcButton" value="+" onclick="input('+')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="4" onclick="input('4')" />
+                <input type="button" class="calcButton" value="5" onclick="input('5')" />
+                <input type="button" class="calcButton" value="6" onclick="input('6')" />
+                <input type="button" class="calcButton" value="-" onclick="input('-')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="1" onclick="input('1')" />
+                <input type="button" class="calcButton" value="2" onclick="input('2')" />
+                <input type="button" class="calcButton" value="3" onclick="input('3')" />
+                <input type="button" class="calcButton" value="x" onclick="input('*')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="0" onclick="input('0')" />
+                <input type="button" class="calcButton" value="." onclick="input('.')" />
+                <input type="button" class="calcButton" value="C" onclick="clearDisplay()" />
+                <input type="button" class="calcButton" value="=" onclick="calculate()" />
+            </div>
+        </form>
+    </body>
+</html>
